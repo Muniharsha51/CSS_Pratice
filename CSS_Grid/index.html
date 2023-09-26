@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .muni{
+                justify-content: center;
+               width: 100%;
+               
+              
+               display: grid;
+                grid-template-columns: 30% 30% 30%;
+                grid-template-rows:5% 5% 5% ;
+
+            }
+            .harsha{
+                    text-align: center;
+                    opacity: 0.65;
+                font-family: sans-serif;
+    
+
+            }
+            .vardhan{
+                background-color: gray;
+                border-radius: 10px;
+                display: inline-block;
+                padding: 15px;
+                text-decoration: none;
+                margin-left: 43%;
+                
+            }
+
+            .vardhan:hover + .muni{
+                row-gap: 20px;
+                column-gap: 20px;
+            }
+            @media screen and  (max-width:550px) {
+            .muni{
+                
+                display: flex;
+                flex-direction: column;
+            }
+    
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="harsha">
+            <h1>PHOTOLIO</h1>
+            <h3 >A template made by w3.css for photographers.</h3>
+        </div>
+        <p class="vardhan">Click on me</p>
+        <div class="muni">
+            
+        <div style="grid-column: 1/2; grid-row: 1/12;" ><img src="https://www.w3schools.com/w3images/rocks.jpg" width="100%" height="100%"></div>
+        <div style="grid-column: 1/2; grid-row: 12/14;"><img src="https://www.w3schools.com/w3images/sound.jpg" width="100%" height="100%"></div>
+        <div style="grid-column: 1/2; grid-row: 14/16;"><img src="https://www.w3schools.com/w3images/woods.jpg"  width="100%" height="100%"></div>
+        <div style="grid-column: 1/2; grid-row: 16/18;"><img src="https://www.w3schools.com/w3images/rock.jpg"  width="100%" height="100%"></div>
+        <div style="grid-column: 1/2; grid-row: 18/21;"> <img src="https://www.w3schools.com/w3images/nature.jpg"  width="100%" height="100%"></div>
+        <div style="grid-column: 1/2; grid-row: 21/23;"><img src="https://www.w3schools.com/w3images/mist.jpg" width="100%" height="100%"></div>
+
+        <div style="grid-column: 2/3; grid-row: 1/6;"><img src="https://www.w3schools.com/w3images/coffee.jpg" width="100%" height="100%"></div>
+        <div style="grid-column: 2/3; grid-row: 6/8;"> <img src="https://www.w3schools.com/w3images/bridge.jpg" width="100%" height="100%"></div>
+        <div style="grid-column: 2/3; grid-row: 8/11;"> <img src="https://www.w3schools.com/w3images/notebook.jpg"  width="100%" height="100%"></div>
+        <div style="grid-column: 2/3; grid-row: 11/15;"><img src="https://www.w3schools.com/w3images/london.jpg"  width="100%" height="100%"></div>
+        <div style="grid-column: 2/3; grid-row: 15/20;"><img src="https://www.w3schools.com/w3images/rocks.jpg" width="100%" height="100%"></div>
+        <div style="grid-column: 2/3; grid-row: 20/25;"><img src="https://www.w3schools.com/w3images/avatar_g.jpg" width="100%" height="100%"></div>
+        
+        <div style="grid-column: 3/4; grid-row: 1/3;"><img src="https://www.w3schools.com/w3images/mist.jpg"   width="100%" height="100%"></div>
+        <div style="grid-column:3/4; grid-row:3/7 ;"> <img src="https://www.w3schools.com/w3images/workbench.jpg" width="100%" height="100%"></div>
+       <div style="grid-column: 3/4; grid-row:7/10;"><img src="https://www.w3schools.com/w3images/gondol.jpg"  width="100%" height="100%"></div> 
+        <div style="grid-column: 3/4; grid-row:10/13 ;"><img src="https://www.w3schools.com/w3images/skies.jpg"  width="100%" height="100%"></div>
+        <div style="grid-column: 3/4; grid-row:13/17 ;"><img src="https://www.w3schools.com/w3images/lights.jpg" width="100%" height="100%"></div>
+        <div style="grid-column: 3/4; grid-row:17/22 ;"><img src="https://www.w3schools.com/w3images/workshop.jpg"  width="100%" height="100%"></div>
+        
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+         
+        </div>
+        
+
+    </body>
+</html>
